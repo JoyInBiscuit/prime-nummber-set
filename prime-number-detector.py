@@ -20,8 +20,8 @@ while current_number <= end_with:
       break # it's ok. We will just move away to the next number hoping that we can a find a prime.
     divider += 1
     
-  if current_number_isprime == True:
+  if current_number_is_prime == True:
     prime_number_set.append(current_number)
     
   current_number += 1
-print(len(prime_number_set), "prime numbers found./n"prime_number_set)
+print(len(prime_number_set), "prime numbers found./n", prime_number_set)
